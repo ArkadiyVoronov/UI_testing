@@ -11,7 +11,6 @@ class GoogleHomePage(BasePage):
             base_url='https://google.com')
 
     locator_dictionary = {
-        "for_sale_tab": (By.LINK_TEXT, 'For sale'),
         "search_box": (By.ID, 'search-input-location'),
         "search_button:": (By.ID, "search-submit")
     }
